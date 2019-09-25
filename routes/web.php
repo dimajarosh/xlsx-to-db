@@ -16,4 +16,4 @@ Route::get('/', function () {
 //    return view('welcome');
 });
 
-Route::post('/', "Index@index");
+Route::post('/', "XlsxController@saveXlsxToDb");

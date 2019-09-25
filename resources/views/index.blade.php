@@ -15,7 +15,7 @@
 @endif
     <h3>Завантажте файл xlsx для імпорту у базу даних</h3>
     <form action='/' method='post' enctype='multipart/form-data'>
-        <input type='file' name='lol'>
+        <input type='file' name='file'>
         <input type='submit'>
     </form>
 </body>
